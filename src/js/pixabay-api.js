@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = 'API Pixabay';
+const API_KEY = '54898144-8849b2938f972b2520ec71ccb';
 axios.defaults.baseURL = 'https://pixabay.com/api/';
 
 export async function getImagesByQuery(query, page = 1) {
@@ -10,7 +10,7 @@ export async function getImagesByQuery(query, page = 1) {
       q: query,
       image_type: 'photo',
       orientation: 'horizontal',
-      safesearch: 'true',
+      safesearch: true,
       page: page,
       per_page: 15,
     },
