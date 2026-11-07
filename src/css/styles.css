@@ -91,7 +91,6 @@ body {
   color: #555;
 }
 
-/* Лоадер та класи видимості */
 .loader-container {
   display: flex;
   justify-content: center;
